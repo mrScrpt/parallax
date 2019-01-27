@@ -1,0 +1,33 @@
+*{margin: 0; padding:0;}
+body,html{
+	width:100%;
+	height:100%;
+}
+.wrapper{
+	overflow: hidden;
+	background: #ffd0c8;
+	position: relative;
+	height: 100%;
+	width:100%;	
+	
+}
+.parallax{
+	position: absolute;
+	top:0;
+	left:0;
+	height: 100%;
+	width:100%;	
+}
+.parallax__item{
+	position: absolute;
+	height:100%;	
+	width:3000px;
+	left: 50%;
+	margin-left: -1500px;
+
+	
+}
+.parallax__img{
+	position: absolute;
+	bottom:0;	
+}
